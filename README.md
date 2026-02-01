@@ -27,9 +27,11 @@ The overall reconstruction pipeline is illustrated below.
 ## 🎥 Visual Results
 
 ### Reconstruction Results
-![result1](asset/12.png)
+![result1](assets/12.png)
 ![result1](assets/42.png)
-![result2](assets/result2.png)
+![result2](assets/lingbujian.png)
+![result2](assets/fadongji.png)
+<!-- ![result2](assets/result2.png) -->
 
 ### Video Demo
 [![Video Demo](assets/video_teaser.png)](https://youtu.be/XXXXXXX)
