@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Research on Object-Level Reconstruction Based on 3D Gaussian Models</title>
+  <title>Object-Level 3D Gaussian Reconstruction</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -43,10 +42,20 @@
       text-align: center;
       margin: 24px 0;
     }
+    .row {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .row img {
+      width: 48%;
+    }
     .caption {
       font-size: 0.95em;
       color: #555;
       margin-top: 8px;
+      text-align: center;
     }
     .links a {
       margin-right: 16px;
@@ -64,10 +73,10 @@
 <body>
 <div class="container">
 
-<h1>Research on Object-Level Reconstruction Based on 3D Gaussian Models</h1>
+<h1>Object-Level Reconstruction Based on 3D Gaussian Models</h1>
 
 <div class="authors">
-  Kid Zhang &nbsp;&nbsp;|&nbsp;&nbsp; Under Review
+  Xiaolong Zhang &nbsp;&nbsp;|&nbsp;&nbsp; Under Review
 </div>
 
 <hr>
@@ -83,41 +92,49 @@ background interference and produces clean object-level representations.
 
 <h2>Pipeline</h2>
 <div class="figure">
-  <img src="assets/pipeline888.png" alt="Pipeline">
+  <img src="assets/pipeline888.png" loading="lazy" alt="Pipeline">
   <div class="caption">
     Overview of the object-level 3D Gaussian reconstruction pipeline.
   </div>
 </div>
 
 <h2>Qualitative Results</h2>
-<div class="figure">
-  <img src="assets/12.png" width="45%">
-  <img src="assets/42.png" width="45%">
+
+<div class="row">
+  <img src="assets/12.png" loading="lazy">
+  <img src="assets/42.png" loading="lazy">
 </div>
-<div class="figure">
-  <img src="assets/lingbujian.png" width="45%">
-  <img src="assets/fadongji.png" width="45%">
+
+<div class="row">
+  <img src="assets/lingbujian.png" loading="lazy">
+  <img src="assets/fadongji.png" loading="lazy">
 </div>
+
 <div class="caption">
   Object-level reconstruction results on different objects and scenes.
 </div>
 
 <h2>Video Demo</h2>
 <div class="figure">
-  <video width="50%" controls>
-    <source src="assets/demo.mp4" type="video/mp4">
-  </video>
+  <p>
+    ▶ <a href="https://youtu.be/XXXXXXX" target="_blank">
+    View reconstruction video
+    </a>
+  </p>
+  <p style="font-size:0.9em;color:#666;">
+    (External video link for fast and stable access)
+  </p>
 </div>
 
 <h2>Links</h2>
 <div class="links">
-  <a href="https://github.com/XiaolongZhang1314/Object-Level-GS-Recon/">
+  <a href="https://github.com/XiaolongZhang1314/Object-Level-GS-Recon/" target="_blank">
     GitHub Repository
   </a>
 </div>
 
 <footer>
-  © 2025 Research on Object-Level Reconstruction Based on 3D Gaussian Models
+  © 2025 Object-Level 3D Gaussian Reconstruction
 </footer>
 
 </div>
