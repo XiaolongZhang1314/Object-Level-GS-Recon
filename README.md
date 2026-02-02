@@ -58,12 +58,4 @@ The code will be released after paper acceptance.
 
 ## 📄 Citation
 
-If you find this work useful, please consider citing:
 
-```bibtex
-<!-- @article{xxx2025objectgs,
-  title={Object-Level 3D Gaussian Reconstruction with Probabilistic Modeling},
-  author={Zhang, Kid and others},
-  journal={Under Review},
-  year={2025}
-} -->
